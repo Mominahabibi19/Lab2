@@ -1,5 +1,7 @@
 # Lab Report 2 - Servers and SSH Keys
 
+## **Part1**
+
 Here is the code for the StringServer
 
 ```
@@ -53,5 +55,15 @@ class StringServer {
     }
 }
 ```
-![hello.png]
-![howareyou.png]
+## here is the screenshot for the first message
+![Image](hello.png)
+
+## here is the screenshot for the second message
+![Image](howareyou.png)
+
+## **Part2**
+
+
+
+## **Part3**
+
