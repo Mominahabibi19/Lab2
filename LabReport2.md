@@ -53,4 +53,5 @@ class StringServer {
     }
 }
 ```
-![image]
+![hello.png]
+![howareyou.png]
