@@ -73,12 +73,22 @@ The URL  [Link](HTTP://localhost 4000/add-message?s=Hello)
 The URL [Link](HTTP://localhost 4000/add-message?s=How%20are%20you)
 
 * The handleRequest(URI url) method is called, and the URLDecoder.decode(encodedParameter, "UTF-8") is called to decode the message.
-*  The relevant arguments and values for the handleRequest(URI url) method is url which contains the path "/add-message" and the query string is split into an array 'parameters' where parameters[0] os "s" and parameters[1] is "How%20are%20you".The value of encodedParameter will have "How%20are%20you". The UTF-8 is used for decoding. 
+*  The relevant arguments and values for the handleRequest(URI url) method is url which contains the path "/add-message" and the query string is split into an array 'parameters' where parameters[0] is "s" and parameters[1] is "How%20are%20you".The value of encodedParameter will have "How%20are%20you". The UTF-8 is used for decoding. 
 * The values of any relevant fields of the class change: At the start, the num variable is initialized with 1 and the string variable is empty. After the request is valid the code proceeds, so the decodedParameter resulting with the value of "How are you" the string variable updated to "1. Hello\n 2. How are you\n" and the num variable is incremented from 2 to 3.
 
 ## **Part2**
+Using the command line, show with ls and take screenshots of:
 
+The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 
+![Image]()
 
+The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+
+![Image]()
+
+A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+
+![Image]()
 ## **Part3**
 
