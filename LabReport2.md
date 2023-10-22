@@ -57,20 +57,20 @@ class StringServer {
     }
 }
 ```
-## here is the screenshot for the first message
+## Here is the screenshot for the first message
 ![Image](hello.png)
 
-The URL was HTTP://local host 4000/add-message?s=Hello
+The URL  [Link](HTTP://localhost 4000/add-message?s=Hello)
 
 * The handleRequest(URI url) method is called, and the URLDecoder.decode(encodedParameter, "UTF-8") is called to decode the message.
 * The relevant arguments and values for the handleRequest(URI url) method is url which contains the path "/add-message" and it also contains the query which is "s=Hello". The arguments and the values of the URLDecoder.decode methods are encodedParameter and the UTF-8 which is the character encoding used for decoding. The value of the decodedParameter will have "Hello".
 * The values of any relevant fields of the class change: The num variable, is used to track of the message sequence number, which is incremented from 1 to 2. and the string variable, stores a running log of messages, and each new message is appended to it with the appropriate sequence number,  is updated to "1.Hello\n".
 
 
-## here is the screenshot for the second message
+## Here is the screenshot for the second message
 ![Image](howareyou.png)
 
-The URL was HTTP://local host 4000/add-message?s=How%20are%20you
+The URL [Link](HTTP://localhost 4000/add-message?s=How%20are%20you)
 
 * The handleRequest(URI url) method is called, and the URLDecoder.decode(encodedParameter, "UTF-8") is called to decode the message.
 *  The relevant arguments and values for the handleRequest(URI url) method is url which contains the path "/add-message" and the query string is split into an array 'parameters' where parameters[0] os "s" and parameters[1] is "How%20are%20you".The value of encodedParameter will have "How%20are%20you". The UTF-8 is used for decoding. 
