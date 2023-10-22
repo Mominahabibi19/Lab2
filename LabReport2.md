@@ -79,11 +79,11 @@ The URL [Link](HTTP://localhost 4000/add-message?s=How%20are%20you)
 ## **Part2**
 Using the command line, show with ls and take screenshots of:
 
-The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+The path to the private key for your SSH key for logging into ieng6 
 
 ![Image](pri.png)
 
-The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+The path to the public key for your SSH key for logging into ieng6 
 
 ![Image](pub.png)
 
